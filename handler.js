@@ -6,6 +6,7 @@ exports.handler = (event, context, callback) => {
     body: JSON.stringify({
       name: generate(),
     }),
+    
   };
 callback(null, response);
 };
